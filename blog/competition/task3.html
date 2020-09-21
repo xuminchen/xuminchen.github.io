@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Task3 | Simon&#39;s Blog</title>
+    <meta name="generator" content="VuePress 1.5.4">
+    <link rel="shoutcut icon" type="image/x-icon" href="logo.jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/github-markdown-css/2.2.1/github-markdown.css">
+    <meta name="description" content="">
+    <link rel="preload" href="/assets/css/0.styles.bbe6d313.css" as="style"><link rel="preload" href="/assets/js/app.15c63893.js" as="script"><link rel="preload" href="/assets/js/2.83a52e8a.js" as="script"><link rel="preload" href="/assets/js/19.26404820.js" as="script"><link rel="prefetch" href="/assets/js/10.273339ea.js"><link rel="prefetch" href="/assets/js/11.f34c48bf.js"><link rel="prefetch" href="/assets/js/12.acca6533.js"><link rel="prefetch" href="/assets/js/13.277cc9aa.js"><link rel="prefetch" href="/assets/js/14.dab476be.js"><link rel="prefetch" href="/assets/js/15.b0e7e4e6.js"><link rel="prefetch" href="/assets/js/16.3dc194be.js"><link rel="prefetch" href="/assets/js/17.72a2f9f4.js"><link rel="prefetch" href="/assets/js/18.adf1b62c.js"><link rel="prefetch" href="/assets/js/20.6e7aad67.js"><link rel="prefetch" href="/assets/js/21.74c7398f.js"><link rel="prefetch" href="/assets/js/22.3748e0d7.js"><link rel="prefetch" href="/assets/js/23.212a90bf.js"><link rel="prefetch" href="/assets/js/24.2ac39710.js"><link rel="prefetch" href="/assets/js/25.f02e60b9.js"><link rel="prefetch" href="/assets/js/26.e4d5dd86.js"><link rel="prefetch" href="/assets/js/27.0fd34753.js"><link rel="prefetch" href="/assets/js/28.700db19a.js"><link rel="prefetch" href="/assets/js/29.56b5f8da.js"><link rel="prefetch" href="/assets/js/3.ddb8398f.js"><link rel="prefetch" href="/assets/js/30.32ee25d2.js"><link rel="prefetch" href="/assets/js/31.d2e27490.js"><link rel="prefetch" href="/assets/js/32.7b2392e4.js"><link rel="prefetch" href="/assets/js/33.2e320e29.js"><link rel="prefetch" href="/assets/js/34.7b6d6140.js"><link rel="prefetch" href="/assets/js/35.fe23083b.js"><link rel="prefetch" href="/assets/js/36.5faf7922.js"><link rel="prefetch" href="/assets/js/37.e22ef41e.js"><link rel="prefetch" href="/assets/js/38.2b6f7ae4.js"><link rel="prefetch" href="/assets/js/39.8e26d55a.js"><link rel="prefetch" href="/assets/js/4.6545323a.js"><link rel="prefetch" href="/assets/js/40.67b90976.js"><link rel="prefetch" href="/assets/js/5.ed31ef13.js"><link rel="prefetch" href="/assets/js/6.bf0684a8.js"><link rel="prefetch" href="/assets/js/7.2dba22aa.js"><link rel="prefetch" href="/assets/js/8.e2ad90ae.js"><link rel="prefetch" href="/assets/js/9.b2ec3081.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.bbe6d313.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="logo.jpeg" alt="Simon's Blog" class="logo"> <span class="site-name can-hide">Simon's Blog</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/blog/notebook/" class="nav-link">
+  Blog
+</a></div><div class="nav-item"><a href="/blog/competition/" class="nav-link router-link-active">
+  Competition
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/blog/notebook/" class="nav-link">
+  Blog
+</a></div><div class="nav-item"><a href="/blog/competition/" class="nav-link router-link-active">
+  Competition
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>Competition</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/blog/competition/Financial.html" class="sidebar-link">金融风控</a></li><li><a href="/blog/competition/task2.html" class="sidebar-link">Task2 EDA</a></li><li><a href="/blog/competition/task3.html" aria-current="page" class="active sidebar-link">Task3</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/blog/competition/task3.html#introduction" class="sidebar-link">Introduction</a></li><li class="sidebar-sub-header"><a href="/blog/competition/task3.html#step" class="sidebar-link">Step</a></li><li class="sidebar-sub-header"><a href="/blog/competition/task3.html#_3-3-代码示例" class="sidebar-link">3.3 代码示例</a></li><li class="sidebar-sub-header"><a href="/blog/competition/task3.html#_3-4-总结" class="sidebar-link">3.4 总结</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="task3"><a href="#task3" class="header-anchor">#</a> Task3</h1> <h2 id="introduction"><a href="#introduction" class="header-anchor">#</a> Introduction</h2> <p>特征工程是在机器学习等领域中至关重要的一步，数据处理的好坏、特征筛选、编码等都会影响到后续模型的性能。因此特征工程是非常重要的一个环节。</p> <h2 id="step"><a href="#step" class="header-anchor">#</a> Step</h2> <ul><li>数据预处理
+<ul><li>缺失值的填充</li> <li>时间格式处理</li> <li>对象类型特征转换到数值</li></ul></li> <li>异常值处理
+<ul><li>基于3segama原则</li> <li>基于箱型图</li></ul></li> <li>数据分箱
+<ul><li>固定宽度分箱</li> <li>分位数分箱
+<ul><li>离散数值型数据分箱</li> <li>连续数值型数据分箱</li></ul></li> <li>卡方分箱（选做作业）</li></ul></li> <li>特征交互
+<ul><li>特征和特征之间组合</li> <li>特征和特征之间衍生</li> <li>其他特征衍生的尝试（选做作业）</li></ul></li> <li>特征编码
+<ul><li>one-hot编码</li> <li>label-encode编码</li></ul></li> <li>特征选择
+<ul><li>1 Filter</li> <li>2 Wrapper （RFE）</li> <li>3 Embedded</li></ul></li></ul> <h2 id="_3-3-代码示例"><a href="#_3-3-代码示例" class="header-anchor">#</a> 3.3 代码示例</h2> <h3 id="_3-3-1-导入包并读取数据"><a href="#_3-3-1-导入包并读取数据" class="header-anchor">#</a> 3.3.1 导入包并读取数据</h3> <div class="language-python extra-class"><pre class="language-python"><code><span class="token keyword">import</span> pandas <span class="token keyword">as</span> pd
+<span class="token keyword">import</span> numpy <span class="token keyword">as</span> np
+<span class="token keyword">import</span> matplotlib<span class="token punctuation">.</span>pyplot <span class="token keyword">as</span> plt
+<span class="token keyword">import</span> seaborn <span class="token keyword">as</span> sns
+<span class="token keyword">import</span> datetime
+<span class="token keyword">from</span> tqdm <span class="token keyword">import</span> tqdm
+<span class="token keyword">from</span> sklearn<span class="token punctuation">.</span>preprocessing <span class="token keyword">import</span> LabelEncoder
+<span class="token keyword">from</span> sklearn<span class="token punctuation">.</span>feature_selection <span class="token keyword">import</span> SelectKBest
+<span class="token keyword">from</span> sklearn<span class="token punctuation">.</span>feature_selection <span class="token keyword">import</span> chi2
+<span class="token keyword">from</span> sklearn<span class="token punctuation">.</span>preprocessing <span class="token keyword">import</span> MinMaxScaler
+<span class="token keyword">import</span> xgboost <span class="token keyword">as</span> xgb
+<span class="token keyword">import</span> lightgbm <span class="token keyword">as</span> lgb
+<span class="token keyword">from</span> catboost <span class="token keyword">import</span> CatBoostRegressor
+<span class="token keyword">import</span> warnings
+<span class="token keyword">from</span> sklearn<span class="token punctuation">.</span>model_selection <span class="token keyword">import</span> StratifiedKFold<span class="token punctuation">,</span> KFold
+<span class="token keyword">from</span> sklearn<span class="token punctuation">.</span>metrics <span class="token keyword">import</span> accuracy_score<span class="token punctuation">,</span> f1_score<span class="token punctuation">,</span> roc_auc_score<span class="token punctuation">,</span> log_loss
+warnings<span class="token punctuation">.</span>filterwarnings<span class="token punctuation">(</span><span class="token string">'ignore'</span><span class="token punctuation">)</span>
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>data_train <span class="token operator">=</span>pd<span class="token punctuation">.</span>read_csv<span class="token punctuation">(</span><span class="token string">'../train.csv'</span><span class="token punctuation">)</span>
+data_test_a <span class="token operator">=</span> pd<span class="token punctuation">.</span>read_csv<span class="token punctuation">(</span><span class="token string">'../testA.csv'</span><span class="token punctuation">)</span>
+</code></pre></div><h3 id="_3-3-2特征预处理"><a href="#_3-3-2特征预处理" class="header-anchor">#</a> 3.3.2特征预处理</h3> <ul><li>数据EDA部分我们已经对数据的大概和某些特征分布有了了解，数据预处理部分一般我们要处理一些EDA阶段分析出来的问题，这里介绍了数据缺失值的填充，时间格式特征的转化处理，某些对象类别特征的处理。</li></ul> <p>首先我们查找出数据中的对象特征和数值特征</p> <div class="language-python extra-class"><pre class="language-python"><code>numerical_fea <span class="token operator">=</span> <span class="token builtin">list</span><span class="token punctuation">(</span>data_train<span class="token punctuation">.</span>select_dtypes<span class="token punctuation">(</span>exclude<span class="token operator">=</span><span class="token punctuation">[</span><span class="token string">'object'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">.</span>columns<span class="token punctuation">)</span>
+category_fea <span class="token operator">=</span> <span class="token builtin">list</span><span class="token punctuation">(</span><span class="token builtin">filter</span><span class="token punctuation">(</span><span class="token keyword">lambda</span> x<span class="token punctuation">:</span> x <span class="token keyword">not</span> <span class="token keyword">in</span> numerical_fea<span class="token punctuation">,</span><span class="token builtin">list</span><span class="token punctuation">(</span>data_train<span class="token punctuation">.</span>columns<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+label <span class="token operator">=</span> <span class="token string">'isDefault'</span>
+numerical_fea<span class="token punctuation">.</span>remove<span class="token punctuation">(</span>label<span class="token punctuation">)</span>
+</code></pre></div><p>在比赛中数据预处理是必不可少的一部分，对于缺失值的填充往往会影响比赛的结果，在比赛中不妨尝试多种填充然后比较结果选择结果最优的一种；
+比赛数据相比真实场景的数据相对要“干净”一些，但是还是会有一定的“脏”数据存在，清洗一些异常值往往会获得意想不到的效果。</p> <h4 id="缺失值填充"><a href="#缺失值填充" class="header-anchor">#</a> 缺失值填充</h4> <ul><li><p>把所有缺失值替换为指定的值0</p> <p>data_train = data_train.fillna(0)</p></li> <li><p>向用缺失值上面的值替换缺失值</p> <p>data_train = data_train.fillna(axis=0,method='ffill')</p></li> <li><p>纵向用缺失值下面的值替换缺失值,且设置最多只填充两个连续的缺失值</p> <p>data_train = data_train.fillna(axis=0,method='bfill',limit=2)</p></li></ul> <div class="language-python extra-class"><pre class="language-python"><code><span class="token comment">#查看缺失值情况</span>
+data_train<span class="token punctuation">.</span>isnull<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token builtin">sum</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</code></pre></div><div class="language- extra-class"><pre><code>id                        0
+loanAmnt                  0
+term                      0
+interestRate              0
+installment               0
+grade                     0
+subGrade                  0
+employmentTitle           1
+employmentLength      46799
+homeOwnership             0
+annualIncome              0
+verificationStatus        0
+issueDate                 0
+isDefault                 0
+purpose                   0
+postCode                  1
+regionCode                0
+dti                     239
+delinquency_2years        0
+ficoRangeLow              0
+ficoRangeHigh             0
+openAcc                   0
+pubRec                    0
+pubRecBankruptcies      405
+revolBal                  0
+revolUtil               531
+totalAcc                  0
+initialListStatus         0
+applicationType           0
+earliesCreditLine         0
+title                     1
+policyCode                0
+n0                    40270
+n1                    40270
+n2                    40270
+n2.1                  40270
+n4                    33239
+n5                    40270
+n6                    40270
+n7                    40270
+n8                    40271
+n9                    40270
+n10                   33239
+n11                   69752
+n12                   40270
+n13                   40270
+n14                   40270
+dtype: int64
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code><span class="token comment">#按照平均数填充数值型特征</span>
+data_train<span class="token punctuation">[</span>numerical_fea<span class="token punctuation">]</span> <span class="token operator">=</span> data_train<span class="token punctuation">[</span>numerical_fea<span class="token punctuation">]</span><span class="token punctuation">.</span>fillna<span class="token punctuation">(</span>data_train<span class="token punctuation">[</span>numerical_fea<span class="token punctuation">]</span><span class="token punctuation">.</span>median<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+data_test_a<span class="token punctuation">[</span>numerical_fea<span class="token punctuation">]</span> <span class="token operator">=</span> data_test_a<span class="token punctuation">[</span>numerical_fea<span class="token punctuation">]</span><span class="token punctuation">.</span>fillna<span class="token punctuation">(</span>data_train<span class="token punctuation">[</span>numerical_fea<span class="token punctuation">]</span><span class="token punctuation">.</span>median<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token comment">#按照众数填充类别型特征</span>
+data_train<span class="token punctuation">[</span>category_fea<span class="token punctuation">]</span> <span class="token operator">=</span> data_train<span class="token punctuation">[</span>category_fea<span class="token punctuation">]</span><span class="token punctuation">.</span>fillna<span class="token punctuation">(</span>data_train<span class="token punctuation">[</span>category_fea<span class="token punctuation">]</span><span class="token punctuation">.</span>mode<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+data_test_a<span class="token punctuation">[</span>category_fea<span class="token punctuation">]</span> <span class="token operator">=</span> data_test_a<span class="token punctuation">[</span>category_fea<span class="token punctuation">]</span><span class="token punctuation">.</span>fillna<span class="token punctuation">(</span>data_train<span class="token punctuation">[</span>category_fea<span class="token punctuation">]</span><span class="token punctuation">.</span>mode<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>data_train<span class="token punctuation">.</span>isnull<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token builtin">sum</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</code></pre></div><div class="language- extra-class"><pre><code>id                        0
+loanAmnt                  0
+term                      0
+interestRate              0
+installment               0
+grade                     0
+subGrade                  0
+employmentTitle           0
+employmentLength      46799
+homeOwnership             0
+annualIncome              0
+verificationStatus        0
+issueDate                 0
+isDefault                 0
+purpose                   0
+postCode                  0
+regionCode                0
+dti                       0
+delinquency_2years        0
+ficoRangeLow              0
+ficoRangeHigh             0
+openAcc                   0
+pubRec                    0
+pubRecBankruptcies        0
+revolBal                  0
+revolUtil                 0
+totalAcc                  0
+initialListStatus         0
+applicationType           0
+earliesCreditLine         0
+title                     0
+policyCode                0
+n0                        0
+n1                        0
+n2                        0
+n2.1                      0
+n4                        0
+n5                        0
+n6                        0
+n7                        0
+n8                        0
+n9                        0
+n10                       0
+n11                       0
+n12                       0
+n13                       0
+n14                       0
+dtype: int64
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code><span class="token comment">#查看类别特征</span>
+category_fea
+</code></pre></div><div class="language- extra-class"><pre><code>['grade', 'subGrade', 'employmentLength', 'issueDate', 'earliesCreditLine']
+</code></pre></div><ul><li>category_fea：对象型类别特征需要进行预处理，其中['issueDate']为时间格式特征。</li></ul> <h4 id="时间格式处理"><a href="#时间格式处理" class="header-anchor">#</a> 时间格式处理</h4> <div class="language-python extra-class"><pre class="language-python"><code><span class="token comment">#转化成时间格式</span>
+<span class="token keyword">for</span> data <span class="token keyword">in</span> <span class="token punctuation">[</span>data_train<span class="token punctuation">,</span> data_test_a<span class="token punctuation">]</span><span class="token punctuation">:</span>
+    data<span class="token punctuation">[</span><span class="token string">'issueDate'</span><span class="token punctuation">]</span> <span class="token operator">=</span> pd<span class="token punctuation">.</span>to_datetime<span class="token punctuation">(</span>data<span class="token punctuation">[</span><span class="token string">'issueDate'</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token builtin">format</span><span class="token operator">=</span><span class="token string">'%Y-%m-%d'</span><span class="token punctuation">)</span>
+    startdate <span class="token operator">=</span> datetime<span class="token punctuation">.</span>datetime<span class="token punctuation">.</span>strptime<span class="token punctuation">(</span><span class="token string">'2007-06-01'</span><span class="token punctuation">,</span> <span class="token string">'%Y-%m-%d'</span><span class="token punctuation">)</span>
+    <span class="token comment">#构造时间特征</span>
+    data<span class="token punctuation">[</span><span class="token string">'issueDateDT'</span><span class="token punctuation">]</span> <span class="token operator">=</span> data<span class="token punctuation">[</span><span class="token string">'issueDate'</span><span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token builtin">apply</span><span class="token punctuation">(</span><span class="token keyword">lambda</span> x<span class="token punctuation">:</span> x<span class="token operator">-</span>startdate<span class="token punctuation">)</span><span class="token punctuation">.</span>dt<span class="token punctuation">.</span>days
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>data_train<span class="token punctuation">[</span><span class="token string">'employmentLength'</span><span class="token punctuation">]</span><span class="token punctuation">.</span>value_counts<span class="token punctuation">(</span>dropna<span class="token operator">=</span><span class="token boolean">False</span><span class="token punctuation">)</span><span class="token punctuation">.</span>sort_index<span class="token punctuation">(</span><span class="token punctuation">)</span>
+</code></pre></div><div class="language- extra-class"><pre><code>1 year        52489
+10+ years    262753
+2 years       72358
+3 years       64152
+4 years       47985
+5 years       50102
+6 years       37254
+7 years       35407
+8 years       36192
+9 years       30272
+&lt; 1 year      64237
+NaN           46799
+Name: employmentLength, dtype: int64
+</code></pre></div><h4 id="对象类型特征转换到数值"><a href="#对象类型特征转换到数值" class="header-anchor">#</a> 对象类型特征转换到数值</h4> <div class="language-python extra-class"><pre class="language-python"><code><span class="token keyword">def</span> <span class="token function">employmentLength_to_int</span><span class="token punctuation">(</span>s<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">if</span> pd<span class="token punctuation">.</span>isnull<span class="token punctuation">(</span>s<span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token keyword">return</span> s
+    <span class="token keyword">else</span><span class="token punctuation">:</span>
+        <span class="token keyword">return</span> np<span class="token punctuation">.</span>int8<span class="token punctuation">(</span>s<span class="token punctuation">.</span>split<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+<span class="token keyword">for</span> data <span class="token keyword">in</span> <span class="token punctuation">[</span>data_train<span class="token punctuation">,</span> data_test_a<span class="token punctuation">]</span><span class="token punctuation">:</span>
+    data<span class="token punctuation">[</span><span class="token string">'employmentLength'</span><span class="token punctuation">]</span><span class="token punctuation">.</span>replace<span class="token punctuation">(</span>to_replace<span class="token operator">=</span><span class="token string">'10+ years'</span><span class="token punctuation">,</span> value<span class="token operator">=</span><span class="token string">'10 years'</span><span class="token punctuation">,</span> inplace<span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">)</span>
+    data<span class="token punctuation">[</span><span class="token string">'employmentLength'</span><span class="token punctuation">]</span><span class="token punctuation">.</span>replace<span class="token punctuation">(</span><span class="token string">'&lt; 1 year'</span><span class="token punctuation">,</span> <span class="token string">'0 years'</span><span class="token punctuation">,</span> inplace<span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">)</span>
+    data<span class="token punctuation">[</span><span class="token string">'employmentLength'</span><span class="token punctuation">]</span> <span class="token operator">=</span> data<span class="token punctuation">[</span><span class="token string">'employmentLength'</span><span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token builtin">apply</span><span class="token punctuation">(</span>employmentLength_to_int<span class="token punctuation">)</span>
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>data<span class="token punctuation">[</span><span class="token string">'employmentLength'</span><span class="token punctuation">]</span><span class="token punctuation">.</span>value_counts<span class="token punctuation">(</span>dropna<span class="token operator">=</span><span class="token boolean">False</span><span class="token punctuation">)</span><span class="token punctuation">.</span>sort_index<span class="token punctuation">(</span><span class="token punctuation">)</span>
+</code></pre></div><div class="language- extra-class"><pre><code>0.0     15989
+1.0     13182
+2.0     18207
+3.0     16011
+4.0     11833
+5.0     12543
+6.0      9328
+7.0      8823
+8.0      8976
+9.0      7594
+10.0    65772
+NaN     11742
+Name: employmentLength, dtype: int64
+</code></pre></div><ul><li>对earliesCreditLine进行预处理</li></ul> <div class="language-python extra-class"><pre class="language-python"><code>data_train<span class="token punctuation">[</span><span class="token string">'earliesCreditLine'</span><span class="token punctuation">]</span><span class="token punctuation">.</span>sample<span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">)</span>
+</code></pre></div><div class="language- extra-class"><pre><code>519915    Sep-2002
+564368    Dec-1996
+768209    May-2004
+453092    Nov-1995
+763866    Sep-2000
+Name: earliesCreditLine, dtype: object
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code><span class="token keyword">for</span> data <span class="token keyword">in</span> <span class="token punctuation">[</span>data_train<span class="token punctuation">,</span> data_test_a<span class="token punctuation">]</span><span class="token punctuation">:</span>
+    data<span class="token punctuation">[</span><span class="token string">'earliesCreditLine'</span><span class="token punctuation">]</span> <span class="token operator">=</span> data<span class="token punctuation">[</span><span class="token string">'earliesCreditLine'</span><span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token builtin">apply</span><span class="token punctuation">(</span><span class="token keyword">lambda</span> s<span class="token punctuation">:</span> <span class="token builtin">int</span><span class="token punctuation">(</span>s<span class="token punctuation">[</span><span class="token operator">-</span><span class="token number">4</span><span class="token punctuation">:</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+</code></pre></div><h4 id="类别特征处理"><a href="#类别特征处理" class="header-anchor">#</a> 类别特征处理</h4> <div class="language-python extra-class"><pre class="language-python"><code><span class="token comment"># 部分类别特征</span>
+cate_features <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'grade'</span><span class="token punctuation">,</span> <span class="token string">'subGrade'</span><span class="token punctuation">,</span> <span class="token string">'employmentTitle'</span><span class="token punctuation">,</span> <span class="token string">'homeOwnership'</span><span class="token punctuation">,</span> <span class="token string">'verificationStatus'</span><span class="token punctuation">,</span> <span class="token string">'purpose'</span><span class="token punctuation">,</span> <span class="token string">'postCode'</span><span class="token punctuation">,</span> <span class="token string">'regionCode'</span><span class="token punctuation">,</span> \
+                 <span class="token string">'applicationType'</span><span class="token punctuation">,</span> <span class="token string">'initialListStatus'</span><span class="token punctuation">,</span> <span class="token string">'title'</span><span class="token punctuation">,</span> <span class="token string">'policyCode'</span><span class="token punctuation">]</span>
+<span class="token keyword">for</span> f <span class="token keyword">in</span> cate_features<span class="token punctuation">:</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span>f<span class="token punctuation">,</span> <span class="token string">'类型数：'</span><span class="token punctuation">,</span> data<span class="token punctuation">[</span>f<span class="token punctuation">]</span><span class="token punctuation">.</span>nunique<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+</code></pre></div><div class="language- extra-class"><pre><code>grade 类型数： 7
+subGrade 类型数： 35
+employmentTitle 类型数： 79282
+homeOwnership 类型数： 6
+verificationStatus 类型数： 3
+purpose 类型数： 14
+postCode 类型数： 889
+regionCode 类型数： 51
+applicationType 类型数： 2
+initialListStatus 类型数： 2
+title 类型数： 12058
+policyCode 类型数： 1
+</code></pre></div><p>像等级这种类别特征，是有优先级的可以labelencode或者自映射</p> <div class="language-python extra-class"><pre class="language-python"><code><span class="token keyword">for</span> data <span class="token keyword">in</span> <span class="token punctuation">[</span>data_train<span class="token punctuation">,</span> data_test_a<span class="token punctuation">]</span><span class="token punctuation">:</span>
+    data<span class="token punctuation">[</span><span class="token string">'grade'</span><span class="token punctuation">]</span> <span class="token operator">=</span> data<span class="token punctuation">[</span><span class="token string">'grade'</span><span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token builtin">map</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token string">'A'</span><span class="token punctuation">:</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token string">'B'</span><span class="token punctuation">:</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token string">'C'</span><span class="token punctuation">:</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token string">'D'</span><span class="token punctuation">:</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token string">'E'</span><span class="token punctuation">:</span><span class="token number">5</span><span class="token punctuation">,</span><span class="token string">'F'</span><span class="token punctuation">:</span><span class="token number">6</span><span class="token punctuation">,</span><span class="token string">'G'</span><span class="token punctuation">:</span><span class="token number">7</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code><span class="token comment"># 类型数在2之上，又不是高维稀疏的,且纯分类特征</span>
+<span class="token keyword">for</span> data <span class="token keyword">in</span> <span class="token punctuation">[</span>data_train<span class="token punctuation">,</span> data_test_a<span class="token punctuation">]</span><span class="token punctuation">:</span>
+    data <span class="token operator">=</span> pd<span class="token punctuation">.</span>get_dummies<span class="token punctuation">(</span>data<span class="token punctuation">,</span> columns<span class="token operator">=</span><span class="token punctuation">[</span><span class="token string">'subGrade'</span><span class="token punctuation">,</span> <span class="token string">'homeOwnership'</span><span class="token punctuation">,</span> <span class="token string">'verificationStatus'</span><span class="token punctuation">,</span> <span class="token string">'purpose'</span><span class="token punctuation">,</span> <span class="token string">'regionCode'</span><span class="token punctuation">]</span><span class="token punctuation">,</span> drop_first<span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">)</span>
+</code></pre></div><h3 id="_3-3-3-异常值处理"><a href="#_3-3-3-异常值处理" class="header-anchor">#</a> 3.3.3  异常值处理</h3> <ul><li>当你发现异常值后，一定要先分清是什么原因导致的异常值，然后再考虑如何处理。首先，如果这一异常值并不代表一种规律性的，而是极其偶然的现象，或者说你并不想研究这种偶然的现象，这时可以将其删除。其次，如果异常值存在且代表了一种真实存在的现象，那就不能随便删除。在现有的欺诈场景中很多时候欺诈数据本身相对于正常数据勒说就是异常的，我们要把这些异常点纳入，重新拟合模型，研究其规律。能用监督的用监督模型，不能用的还可以考虑用异常检测的算法来做。</li> <li>注意test的数据不能删。</li></ul> <h4 id="检测异常的方法一-均方差"><a href="#检测异常的方法一-均方差" class="header-anchor">#</a> 检测异常的方法一：均方差</h4> <p>在统计学中，如果一个数据分布近似正态，那么大约 68% 的数据值会在均值的一个标准差范围内，大约 95% 会在两个标准差范围内，大约 99.7% 会在三个标准差范围内。</p> <div class="language-python extra-class"><pre class="language-python"><code><span class="token keyword">def</span> <span class="token function">find_outliers_by_3segama</span><span class="token punctuation">(</span>data<span class="token punctuation">,</span>fea<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    data_std <span class="token operator">=</span> np<span class="token punctuation">.</span>std<span class="token punctuation">(</span>data<span class="token punctuation">[</span>fea<span class="token punctuation">]</span><span class="token punctuation">)</span>
+    data_mean <span class="token operator">=</span> np<span class="token punctuation">.</span>mean<span class="token punctuation">(</span>data<span class="token punctuation">[</span>fea<span class="token punctuation">]</span><span class="token punctuation">)</span>
+    outliers_cut_off <span class="token operator">=</span> data_std <span class="token operator">*</span> <span class="token number">3</span>
+    lower_rule <span class="token operator">=</span> data_mean <span class="token operator">-</span> outliers_cut_off
+    upper_rule <span class="token operator">=</span> data_mean <span class="token operator">+</span> outliers_cut_off
+    data<span class="token punctuation">[</span>fea<span class="token operator">+</span><span class="token string">'_outliers'</span><span class="token punctuation">]</span> <span class="token operator">=</span> data<span class="token punctuation">[</span>fea<span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token builtin">apply</span><span class="token punctuation">(</span><span class="token keyword">lambda</span> x<span class="token punctuation">:</span><span class="token builtin">str</span><span class="token punctuation">(</span><span class="token string">'异常值'</span><span class="token punctuation">)</span> <span class="token keyword">if</span> x <span class="token operator">&gt;</span> upper_rule <span class="token keyword">or</span> x <span class="token operator">&lt;</span> lower_rule <span class="token keyword">else</span> <span class="token string">'正常值'</span><span class="token punctuation">)</span>
+    <span class="token keyword">return</span> data
+</code></pre></div><ul><li>得到特征的异常值后可以进一步分析变量异常值和目标变量的关系</li></ul> <div class="language-python extra-class"><pre class="language-python"><code>data_train <span class="token operator">=</span> data_train<span class="token punctuation">.</span>copy<span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token keyword">for</span> fea <span class="token keyword">in</span> numerical_fea<span class="token punctuation">:</span>
+    data_train <span class="token operator">=</span> find_outliers_by_3segama<span class="token punctuation">(</span>data_train<span class="token punctuation">,</span>fea<span class="token punctuation">)</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span>data_train<span class="token punctuation">[</span>fea<span class="token operator">+</span><span class="token string">'_outliers'</span><span class="token punctuation">]</span><span class="token punctuation">.</span>value_counts<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span>data_train<span class="token punctuation">.</span>groupby<span class="token punctuation">(</span>fea<span class="token operator">+</span><span class="token string">'_outliers'</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token string">'isDefault'</span><span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token builtin">sum</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">'*'</span><span class="token operator">*</span><span class="token number">10</span><span class="token punctuation">)</span>
+</code></pre></div><div class="language- extra-class"><pre><code>正常值    800000
+Name: id_outliers, dtype: int64
+id_outliers
+正常值    159610
+Name: isDefault, dtype: int64
+**********
+正常值    800000
+Name: loanAmnt_outliers, dtype: int64
+loanAmnt_outliers
+正常值    159610
+Name: isDefault, dtype: int64
+**********
+正常值    800000
+Name: term_outliers, dtype: int64
+term_outliers
+正常值    159610
+Name: isDefault, dtype: int64
+**********
+正常值    794259
+异常值      5741
+Name: interestRate_outliers, dtype: int64
+interestRate_outliers
+异常值      2916
+正常值    156694
+Name: isDefault, dtype: int64
+**********
+正常值    792046
+异常值      7954
+Name: installment_outliers, dtype: int64
+installment_outliers
+异常值      2152
+正常值    157458
+Name: isDefault, dtype: int64
+**********
+正常值    800000
+Name: employmentTitle_outliers, dtype: int64
+employmentTitle_outliers
+正常值    159610
+Name: isDefault, dtype: int64
+**********
+正常值    799701
+异常值       299
+Name: homeOwnership_outliers, dtype: int64
+homeOwnership_outliers
+异常值        62
+正常值    159548
+Name: isDefault, dtype: int64
+**********
+正常值    793973
+异常值      6027
+Name: annualIncome_outliers, dtype: int64
+annualIncome_outliers
+异常值       756
+正常值    158854
+Name: isDefault, dtype: int64
+**********
+正常值    800000
+Name: verificationStatus_outliers, dtype: int64
+verificationStatus_outliers
+正常值    159610
+Name: isDefault, dtype: int64
+**********
+正常值    783003
+异常值     16997
+Name: purpose_outliers, dtype: int64
+purpose_outliers
+异常值      3635
+正常值    155975
+Name: isDefault, dtype: int64
+**********
+正常值    798931
+异常值      1069
+Name: postCode_outliers, dtype: int64
+postCode_outliers
+异常值       221
+正常值    159389
+Name: isDefault, dtype: int64
+**********
+正常值    799994
+异常值         6
+Name: regionCode_outliers, dtype: int64
+regionCode_outliers
+异常值         1
+正常值    159609
+Name: isDefault, dtype: int64
+**********
+正常值    798440
+异常值      1560
+Name: dti_outliers, dtype: int64
+dti_outliers
+异常值       466
+正常值    159144
+Name: isDefault, dtype: int64
+**********
+正常值    778245
+异常值     21755
+Name: delinquency_2years_outliers, dtype: int64
+delinquency_2years_outliers
+异常值      5089
+正常值    154521
+Name: isDefault, dtype: int64
+**********
+正常值    788261
+异常值     11739
+Name: ficoRangeLow_outliers, dtype: int64
+ficoRangeLow_outliers
+异常值       778
+正常值    158832
+Name: isDefault, dtype: int64
+**********
+正常值    788261
+异常值     11739
+Name: ficoRangeHigh_outliers, dtype: int64
+ficoRangeHigh_outliers
+异常值       778
+正常值    158832
+Name: isDefault, dtype: int64
+**********
+正常值    790889
+异常值      9111
+Name: openAcc_outliers, dtype: int64
+openAcc_outliers
+异常值      2195
+正常值    157415
+Name: isDefault, dtype: int64
+**********
+正常值    792471
+异常值      7529
+Name: pubRec_outliers, dtype: int64
+pubRec_outliers
+异常值      1701
+正常值    157909
+Name: isDefault, dtype: int64
+**********
+正常值    794120
+异常值      5880
+Name: pubRecBankruptcies_outliers, dtype: int64
+pubRecBankruptcies_outliers
+异常值      1423
+正常值    158187
+Name: isDefault, dtype: int64
+**********
+正常值    790001
+异常值      9999
+Name: revolBal_outliers, dtype: int64
+revolBal_outliers
+异常值      1359
+正常值    158251
+Name: isDefault, dtype: int64
+**********
+正常值    799948
+异常值        52
+Name: revolUtil_outliers, dtype: int64
+revolUtil_outliers
+异常值        23
+正常值    159587
+Name: isDefault, dtype: int64
+**********
+正常值    791663
+异常值      8337
+Name: totalAcc_outliers, dtype: int64
+totalAcc_outliers
+异常值      1668
+正常值    157942
+Name: isDefault, dtype: int64
+**********
+正常值    800000
+Name: initialListStatus_outliers, dtype: int64
+initialListStatus_outliers
+正常值    159610
+Name: isDefault, dtype: int64
+**********
+正常值    784586
+异常值     15414
+Name: applicationType_outliers, dtype: int64
+applicationType_outliers
+异常值      3875
+正常值    155735
+Name: isDefault, dtype: int64
+**********
+正常值    775134
+异常值     24866
+Name: title_outliers, dtype: int64
+title_outliers
+异常值      3900
+正常值    155710
+Name: isDefault, dtype: int64
+**********
+正常值    800000
+Name: policyCode_outliers, dtype: int64
+policyCode_outliers
+正常值    159610
+Name: isDefault, dtype: int64
+**********
+正常值    782773
+异常值     17227
+Name: n0_outliers, dtype: int64
+n0_outliers
+异常值      3485
+正常值    156125
+Name: isDefault, dtype: int64
+**********
+正常值    790500
+异常值      9500
+Name: n1_outliers, dtype: int64
+n1_outliers
+异常值      2491
+正常值    157119
+Name: isDefault, dtype: int64
+**********
+正常值    789067
+异常值     10933
+Name: n2_outliers, dtype: int64
+n2_outliers
+异常值      3205
+正常值    156405
+Name: isDefault, dtype: int64
+**********
+正常值    789067
+异常值     10933
+Name: n2.1_outliers, dtype: int64
+n2.1_outliers
+异常值      3205
+正常值    156405
+Name: isDefault, dtype: int64
+**********
+正常值    788660
+异常值     11340
+Name: n4_outliers, dtype: int64
+n4_outliers
+异常值      2476
+正常值    157134
+Name: isDefault, dtype: int64
+**********
+正常值    790355
+异常值      9645
+Name: n5_outliers, dtype: int64
+n5_outliers
+异常值      1858
+正常值    157752
+Name: isDefault, dtype: int64
+**********
+正常值    786006
+异常值     13994
+Name: n6_outliers, dtype: int64
+n6_outliers
+异常值      3182
+正常值    156428
+Name: isDefault, dtype: int64
+**********
+正常值    788430
+异常值     11570
+Name: n7_outliers, dtype: int64
+n7_outliers
+异常值      2746
+正常值    156864
+Name: isDefault, dtype: int64
+**********
+正常值    789625
+异常值     10375
+Name: n8_outliers, dtype: int64
+n8_outliers
+异常值      2131
+正常值    157479
+Name: isDefault, dtype: int64
+**********
+正常值    786384
+异常值     13616
+Name: n9_outliers, dtype: int64
+n9_outliers
+异常值      3953
+正常值    155657
+Name: isDefault, dtype: int64
+**********
+正常值    788979
+异常值     11021
+Name: n10_outliers, dtype: int64
+n10_outliers
+异常值      2639
+正常值    156971
+Name: isDefault, dtype: int64
+**********
+正常值    799434
+异常值       566
+Name: n11_outliers, dtype: int64
+n11_outliers
+异常值       112
+正常值    159498
+Name: isDefault, dtype: int64
+**********
+正常值    797585
+异常值      2415
+Name: n12_outliers, dtype: int64
+n12_outliers
+异常值       545
+正常值    159065
+Name: isDefault, dtype: int64
+**********
+正常值    788907
+异常值     11093
+Name: n13_outliers, dtype: int64
+n13_outliers
+异常值      2482
+正常值    157128
+Name: isDefault, dtype: int64
+**********
+正常值    788884
+异常值     11116
+Name: n14_outliers, dtype: int64
+n14_outliers
+异常值      3364
+正常值    156246
+Name: isDefault, dtype: int64
+**********
+</code></pre></div><ul><li>例如可以看到异常值在两个变量上的分布几乎复合整体的分布，如果异常值都属于为1的用户数据里面代表什么呢？</li></ul> <div class="language-python extra-class"><pre class="language-python"><code><span class="token comment">#删除异常值</span>
+<span class="token keyword">for</span> fea <span class="token keyword">in</span> numerical_fea<span class="token punctuation">:</span>
+    data_train <span class="token operator">=</span> data_train<span class="token punctuation">[</span>data_train<span class="token punctuation">[</span>fea<span class="token operator">+</span><span class="token string">'_outliers'</span><span class="token punctuation">]</span><span class="token operator">==</span><span class="token string">'正常值'</span><span class="token punctuation">]</span>
+    data_train <span class="token operator">=</span> data_train<span class="token punctuation">.</span>reset_index<span class="token punctuation">(</span>drop<span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">)</span> 
+</code></pre></div><h4 id="检测异常的方法二-箱型图"><a href="#检测异常的方法二-箱型图" class="header-anchor">#</a> 检测异常的方法二：箱型图</h4> <ul><li>总结一句话：四分位数会将数据分为三个点和四个区间，IQR = Q3 -Q1，下触须=Q1 − 1.5x IQR，上触须=Q3 + 1.5x IQR；</li></ul> <h3 id="_3-3-4-数据分桶"><a href="#_3-3-4-数据分桶" class="header-anchor">#</a> 3.3.4 数据分桶</h3> <ul><li><p>特征分箱的目的：</p> <ul><li>从模型效果上来看，特征分箱主要是为了降低变量的复杂性，减少变量噪音对模型的影响，提高自变量和因变量的相关度。从而使模型更加稳定。</li></ul></li> <li><p>数据分桶的对象：</p> <ul><li>将连续变量离散化</li> <li>将多状态的离散变量合并成少状态</li></ul></li> <li><p>分箱的原因：</p> <ul><li>数据的特征内的值跨度可能比较大，对有监督和无监督中如k-均值聚类它使用欧氏距离作为相似度函数来测量数据点之间的相似度。都会造成大吃小的影响，其中一种解决方法是对计数值进行区间量化即数据分桶也叫做数据分箱，然后使用量化后的结果。</li></ul></li> <li><p>分箱的优点：</p> <ul><li>处理缺失值：当数据源可能存在缺失值，此时可以把null单独作为一个分箱。</li> <li>处理异常值：当数据中存在离群点时，可以把其通过分箱离散化处理，从而提高变量的鲁棒性（抗干扰能力）。例如，age若出现200这种异常值，可分入“age &gt; 60”这个分箱里，排除影响。</li> <li>业务解释性：我们习惯于线性判断变量的作用，当x越来越大，y就越来越大。但实际x与y之间经常存在着非线性关系，此时可经过WOE变换。</li></ul></li> <li><p>特别要注意一下分箱的基本原则：</p> <ul><li>（1）最小分箱占比不低于5%</li> <li>（2）箱内不能全部是好客户</li> <li>（3）连续箱单调</li></ul></li></ul> <ol><li>固定宽度分箱</li></ol> <p>当数值横跨多个数量级时，最好按照 10 的幂（或任何常数的幂）来进行分组：0~9、10~99、100~999、1000~9999，等等。固定宽度分箱非常容易计算，但如果计数值中有比较大的缺口，就会产生很多没有任何数据的空箱子。</p> <div class="language-python extra-class"><pre class="language-python"><code><span class="token comment"># 通过除法映射到间隔均匀的分箱中，每个分箱的取值范围都是loanAmnt/1000</span>
+data<span class="token punctuation">[</span><span class="token string">'loanAmnt_bin1'</span><span class="token punctuation">]</span> <span class="token operator">=</span> np<span class="token punctuation">.</span>floor_divide<span class="token punctuation">(</span>data<span class="token punctuation">[</span><span class="token string">'loanAmnt'</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token number">1000</span><span class="token punctuation">)</span>
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code><span class="token comment">## 通过对数函数映射到指数宽度分箱</span>
+data<span class="token punctuation">[</span><span class="token string">'loanAmnt_bin2'</span><span class="token punctuation">]</span> <span class="token operator">=</span> np<span class="token punctuation">.</span>floor<span class="token punctuation">(</span>np<span class="token punctuation">.</span>log10<span class="token punctuation">(</span>data<span class="token punctuation">[</span><span class="token string">'loanAmnt'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+</code></pre></div><ol start="2"><li>分位数分箱</li></ol> <div class="language-python extra-class"><pre class="language-python"><code>data<span class="token punctuation">[</span><span class="token string">'loanAmnt_bin3'</span><span class="token punctuation">]</span> <span class="token operator">=</span> pd<span class="token punctuation">.</span>qcut<span class="token punctuation">(</span>data<span class="token punctuation">[</span><span class="token string">'loanAmnt'</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">,</span> labels<span class="token operator">=</span><span class="token boolean">False</span><span class="token punctuation">)</span>
+</code></pre></div><ol start="3"><li>卡方分箱及其他分箱方法的尝试</li></ol> <ul><li>这一部分属于进阶部分，学有余力的同学可以自行搜索尝试。</li></ul> <h3 id="_3-3-5-特征交互"><a href="#_3-3-5-特征交互" class="header-anchor">#</a> 3.3.5 特征交互</h3> <ul><li>交互特征的构造非常简单，使用起来却代价不菲。如果线性模型中包含有交互特征对，那它的训练时间和评分时间就会从 O(n) 增加到 O(n2)，其中 n 是单一特征的数量。</li></ul> <div class="language-python extra-class"><pre class="language-python"><code><span class="token keyword">for</span> col <span class="token keyword">in</span> <span class="token punctuation">[</span><span class="token string">'grade'</span><span class="token punctuation">,</span> <span class="token string">'subGrade'</span><span class="token punctuation">]</span><span class="token punctuation">:</span> 
+    temp_dict <span class="token operator">=</span> data_train<span class="token punctuation">.</span>groupby<span class="token punctuation">(</span><span class="token punctuation">[</span>col<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token string">'isDefault'</span><span class="token punctuation">]</span><span class="token punctuation">.</span>agg<span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token string">'mean'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">.</span>reset_index<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>rename<span class="token punctuation">(</span>columns<span class="token operator">=</span><span class="token punctuation">{</span><span class="token string">'mean'</span><span class="token punctuation">:</span> col <span class="token operator">+</span> <span class="token string">'_target_mean'</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+    temp_dict<span class="token punctuation">.</span>index <span class="token operator">=</span> temp_dict<span class="token punctuation">[</span>col<span class="token punctuation">]</span><span class="token punctuation">.</span>values
+    temp_dict <span class="token operator">=</span> temp_dict<span class="token punctuation">[</span>col <span class="token operator">+</span> <span class="token string">'_target_mean'</span><span class="token punctuation">]</span><span class="token punctuation">.</span>to_dict<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+    data_train<span class="token punctuation">[</span>col <span class="token operator">+</span> <span class="token string">'_target_mean'</span><span class="token punctuation">]</span> <span class="token operator">=</span> data_train<span class="token punctuation">[</span>col<span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token builtin">map</span><span class="token punctuation">(</span>temp_dict<span class="token punctuation">)</span>
+    data_test_a<span class="token punctuation">[</span>col <span class="token operator">+</span> <span class="token string">'_target_mean'</span><span class="token punctuation">]</span> <span class="token operator">=</span> data_test_a<span class="token punctuation">[</span>col<span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token builtin">map</span><span class="token punctuation">(</span>temp_dict<span class="token punctuation">)</span>
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code><span class="token comment"># 其他衍生变量 mean 和 std</span>
+<span class="token keyword">for</span> df <span class="token keyword">in</span> <span class="token punctuation">[</span>data_train<span class="token punctuation">,</span> data_test_a<span class="token punctuation">]</span><span class="token punctuation">:</span>
+    <span class="token keyword">for</span> item <span class="token keyword">in</span> <span class="token punctuation">[</span><span class="token string">'n0'</span><span class="token punctuation">,</span><span class="token string">'n1'</span><span class="token punctuation">,</span><span class="token string">'n2'</span><span class="token punctuation">,</span><span class="token string">'n2.1'</span><span class="token punctuation">,</span><span class="token string">'n4'</span><span class="token punctuation">,</span><span class="token string">'n5'</span><span class="token punctuation">,</span><span class="token string">'n6'</span><span class="token punctuation">,</span><span class="token string">'n7'</span><span class="token punctuation">,</span><span class="token string">'n8'</span><span class="token punctuation">,</span><span class="token string">'n9'</span><span class="token punctuation">,</span><span class="token string">'n10'</span><span class="token punctuation">,</span><span class="token string">'n11'</span><span class="token punctuation">,</span><span class="token string">'n12'</span><span class="token punctuation">,</span><span class="token string">'n13'</span><span class="token punctuation">,</span><span class="token string">'n14'</span><span class="token punctuation">]</span><span class="token punctuation">:</span>
+        df<span class="token punctuation">[</span><span class="token string">'grade_to_mean_'</span> <span class="token operator">+</span> item<span class="token punctuation">]</span> <span class="token operator">=</span> df<span class="token punctuation">[</span><span class="token string">'grade'</span><span class="token punctuation">]</span> <span class="token operator">/</span> df<span class="token punctuation">.</span>groupby<span class="token punctuation">(</span><span class="token punctuation">[</span>item<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token string">'grade'</span><span class="token punctuation">]</span><span class="token punctuation">.</span>transform<span class="token punctuation">(</span><span class="token string">'mean'</span><span class="token punctuation">)</span>
+        df<span class="token punctuation">[</span><span class="token string">'grade_to_std_'</span> <span class="token operator">+</span> item<span class="token punctuation">]</span> <span class="token operator">=</span> df<span class="token punctuation">[</span><span class="token string">'grade'</span><span class="token punctuation">]</span> <span class="token operator">/</span> df<span class="token punctuation">.</span>groupby<span class="token punctuation">(</span><span class="token punctuation">[</span>item<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token string">'grade'</span><span class="token punctuation">]</span><span class="token punctuation">.</span>transform<span class="token punctuation">(</span><span class="token string">'std'</span><span class="token punctuation">)</span>
+</code></pre></div><p>这里给出一些特征交互的思路，但特征和特征间的交互衍生出新的特征还远远不止于此，抛砖引玉，希望大家多多探索。请学习者尝试其他的特征交互方法。</p> <h3 id="_3-3-6-特征编码"><a href="#_3-3-6-特征编码" class="header-anchor">#</a> 3.3.6 特征编码</h3> <h4 id="labelencode-直接放入树模型中"><a href="#labelencode-直接放入树模型中" class="header-anchor">#</a> labelEncode 直接放入树模型中</h4> <div class="language-python extra-class"><pre class="language-python"><code><span class="token comment">#label-encode:subGrade,postCode,title</span>
+<span class="token comment"># 高维类别特征需要进行转换</span>
+<span class="token keyword">for</span> col <span class="token keyword">in</span> tqdm<span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token string">'employmentTitle'</span><span class="token punctuation">,</span> <span class="token string">'postCode'</span><span class="token punctuation">,</span> <span class="token string">'title'</span><span class="token punctuation">,</span><span class="token string">'subGrade'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    le <span class="token operator">=</span> LabelEncoder<span class="token punctuation">(</span><span class="token punctuation">)</span>
+    le<span class="token punctuation">.</span>fit<span class="token punctuation">(</span><span class="token builtin">list</span><span class="token punctuation">(</span>data_train<span class="token punctuation">[</span>col<span class="token punctuation">]</span><span class="token punctuation">.</span>astype<span class="token punctuation">(</span><span class="token builtin">str</span><span class="token punctuation">)</span><span class="token punctuation">.</span>values<span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token builtin">list</span><span class="token punctuation">(</span>data_test_a<span class="token punctuation">[</span>col<span class="token punctuation">]</span><span class="token punctuation">.</span>astype<span class="token punctuation">(</span><span class="token builtin">str</span><span class="token punctuation">)</span><span class="token punctuation">.</span>values<span class="token punctuation">)</span><span class="token punctuation">)</span>
+    data_train<span class="token punctuation">[</span>col<span class="token punctuation">]</span> <span class="token operator">=</span> le<span class="token punctuation">.</span>transform<span class="token punctuation">(</span><span class="token builtin">list</span><span class="token punctuation">(</span>data_train<span class="token punctuation">[</span>col<span class="token punctuation">]</span><span class="token punctuation">.</span>astype<span class="token punctuation">(</span><span class="token builtin">str</span><span class="token punctuation">)</span><span class="token punctuation">.</span>values<span class="token punctuation">)</span><span class="token punctuation">)</span>
+    data_test_a<span class="token punctuation">[</span>col<span class="token punctuation">]</span> <span class="token operator">=</span> le<span class="token punctuation">.</span>transform<span class="token punctuation">(</span><span class="token builtin">list</span><span class="token punctuation">(</span>data_test_a<span class="token punctuation">[</span>col<span class="token punctuation">]</span><span class="token punctuation">.</span>astype<span class="token punctuation">(</span><span class="token builtin">str</span><span class="token punctuation">)</span><span class="token punctuation">.</span>values<span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">'Label Encoding 完成'</span><span class="token punctuation">)</span>
+</code></pre></div><div class="language- extra-class"><pre><code>100%|██████████| 4/4 [00:08&lt;00:00,  2.04s/it]
+
+Label Encoding 完成
+</code></pre></div><p>​<br>
+​</p> <h4 id="逻辑回归等模型要单独增加的特征工程"><a href="#逻辑回归等模型要单独增加的特征工程" class="header-anchor">#</a> 逻辑回归等模型要单独增加的特征工程</h4> <ul><li>对特征做归一化，去除相关性高的特征</li> <li>归一化目的是让训练过程更好更快的收敛，避免特征大吃小的问题</li> <li>去除相关性是增加模型的可解释性，加快预测过程。</li></ul> <div class="language-python extra-class"><pre class="language-python"><code><span class="token comment"># 举例归一化过程</span>
+<span class="token comment">#伪代码</span>
+<span class="token keyword">for</span> fea <span class="token keyword">in</span> <span class="token punctuation">[</span>要归一化的特征列表<span class="token punctuation">]</span>：
+    data<span class="token punctuation">[</span>fea<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">(</span>data<span class="token punctuation">[</span>fea<span class="token punctuation">]</span> <span class="token operator">-</span> np<span class="token punctuation">.</span><span class="token builtin">min</span><span class="token punctuation">(</span>data<span class="token punctuation">[</span>fea<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token operator">/</span> <span class="token punctuation">(</span>np<span class="token punctuation">.</span><span class="token builtin">max</span><span class="token punctuation">(</span>data<span class="token punctuation">[</span>fea<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token operator">-</span> np<span class="token punctuation">.</span><span class="token builtin">min</span><span class="token punctuation">(</span>data<span class="token punctuation">[</span>fea<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+</code></pre></div><h3 id="_3-3-7-特征选择"><a href="#_3-3-7-特征选择" class="header-anchor">#</a> 3.3.7 特征选择</h3> <ul><li>特征选择技术可以精简掉无用的特征，以降低最终模型的复杂性，它的最终目的是得到一个简约模型，在不降低预测准确率或对预测准确率影响不大的情况下提高计算速度。特征选择不是为了减少训练时间（实际上，一些技术会增加总体训练时间），而是为了减少模型评分时间。</li></ul> <p>特征选择的方法：</p> <ul><li>1 Filter
+<ul><li>方差选择法</li> <li>相关系数法（pearson 相关系数）</li> <li>卡方检验</li> <li>互信息法</li></ul></li> <li>2 Wrapper （RFE）
+<ul><li>递归特征消除法</li></ul></li> <li>3 Embedded
+<ul><li>基于惩罚项的特征选择法</li> <li>基于树模型的特征选择</li></ul></li></ul> <h4 id="filter"><a href="#filter" class="header-anchor">#</a> Filter</h4> <ul><li>基于特征间的关系进行筛选</li></ul> <p>方差选择法</p> <ul><li>方差选择法中，先要计算各个特征的方差，然后根据设定的阈值，选择方差大于阈值的特征</li></ul> <div class="language-python extra-class"><pre class="language-python"><code><span class="token keyword">from</span> sklearn<span class="token punctuation">.</span>feature_selection <span class="token keyword">import</span> VarianceThreshold
+<span class="token comment">#其中参数threshold为方差的阈值</span>
+VarianceThreshold<span class="token punctuation">(</span>threshold<span class="token operator">=</span><span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">.</span>fit_transform<span class="token punctuation">(</span>train<span class="token punctuation">,</span>target_train<span class="token punctuation">)</span>
+</code></pre></div><p>相关系数法</p> <ul><li>Pearson 相关系数
+皮尔森相关系数是一种最简单的，可以帮助理解特征和响应变量之间关系的方法，该方法衡量的是变量之间的线性相关性。
+结果的取值区间为 [-1，1] ， -1 表示完全的负相关， +1表示完全的正相关，0 表示没有线性相关。</li></ul> <div class="language-python extra-class"><pre class="language-python"><code><span class="token keyword">from</span> sklearn<span class="token punctuation">.</span>feature_selection <span class="token keyword">import</span> SelectKBest
+<span class="token keyword">from</span> scipy<span class="token punctuation">.</span>stats <span class="token keyword">import</span> pearsonr
+<span class="token comment">#选择K个最好的特征，返回选择特征后的数据</span>
+<span class="token comment">#第一个参数为计算评估特征是否好的函数，该函数输入特征矩阵和目标向量，</span>
+<span class="token comment">#输出二元组（评分，P值）的数组，数组第i项为第i个特征的评分和P值。在此定义为计算相关系数</span>
+<span class="token comment">#参数k为选择的特征个数</span>
+
+SelectKBest<span class="token punctuation">(</span>k<span class="token operator">=</span><span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">.</span>fit_transform<span class="token punctuation">(</span>train<span class="token punctuation">,</span>target_train<span class="token punctuation">)</span>
+</code></pre></div><p>卡方检验</p> <ul><li>经典的卡方检验是用于检验自变量对因变量的相关性。 假设自变量有N种取值，因变量有M种取值，考虑自变量等于i且因变量等于j的样本频数的观察值与期望的差距。 其统计量如下： χ2=∑(A−T)2T，其中A为实际值，T为理论值</li> <li>(注：卡方只能运用在正定矩阵上，否则会报错Input X must be non-negative)</li></ul> <div class="language-python extra-class"><pre class="language-python"><code><span class="token keyword">from</span> sklearn<span class="token punctuation">.</span>feature_selection <span class="token keyword">import</span> SelectKBest
+<span class="token keyword">from</span> sklearn<span class="token punctuation">.</span>feature_selection <span class="token keyword">import</span> chi2
+<span class="token comment">#参数k为选择的特征个数</span>
+
+SelectKBest<span class="token punctuation">(</span>chi2<span class="token punctuation">,</span> k<span class="token operator">=</span><span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">.</span>fit_transform<span class="token punctuation">(</span>train<span class="token punctuation">,</span>target_train<span class="token punctuation">)</span>
+</code></pre></div><p>互信息法</p> <ul><li>经典的互信息也是评价自变量对因变量的相关性的。 在feature_selection库的SelectKBest类结合最大信息系数法可以用于选择特征，相关代码如下：</li></ul> <div class="language-python extra-class"><pre class="language-python"><code><span class="token keyword">from</span> sklearn<span class="token punctuation">.</span>feature_selection <span class="token keyword">import</span> SelectKBest
+<span class="token keyword">from</span> minepy <span class="token keyword">import</span> MINE
+<span class="token comment">#由于MINE的设计不是函数式的，定义mic方法将其为函数式的，</span>
+<span class="token comment">#返回一个二元组，二元组的第2项设置成固定的P值0.5</span>
+<span class="token keyword">def</span> <span class="token function">mic</span><span class="token punctuation">(</span>x<span class="token punctuation">,</span> y<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    m <span class="token operator">=</span> MINE<span class="token punctuation">(</span><span class="token punctuation">)</span>
+    m<span class="token punctuation">.</span>compute_score<span class="token punctuation">(</span>x<span class="token punctuation">,</span> y<span class="token punctuation">)</span>
+    <span class="token keyword">return</span> <span class="token punctuation">(</span>m<span class="token punctuation">.</span>mic<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token number">0.5</span><span class="token punctuation">)</span>
+<span class="token comment">#参数k为选择的特征个数</span>
+SelectKBest<span class="token punctuation">(</span><span class="token keyword">lambda</span> X<span class="token punctuation">,</span> Y<span class="token punctuation">:</span> array<span class="token punctuation">(</span><span class="token builtin">map</span><span class="token punctuation">(</span><span class="token keyword">lambda</span> x<span class="token punctuation">:</span>mic<span class="token punctuation">(</span>x<span class="token punctuation">,</span> Y<span class="token punctuation">)</span><span class="token punctuation">,</span> X<span class="token punctuation">.</span>T<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span>T<span class="token punctuation">,</span> k<span class="token operator">=</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">.</span>fit_transform<span class="token punctuation">(</span>train<span class="token punctuation">,</span>target_train<span class="token punctuation">)</span>
+</code></pre></div><h4 id="wrapper-recursive-feature-elimination-rfe"><a href="#wrapper-recursive-feature-elimination-rfe" class="header-anchor">#</a> Wrapper （Recursive feature elimination，RFE）</h4> <ul><li>递归特征消除法 递归消除特征法使用一个基模型来进行多轮训练，每轮训练后，消除若干权值系数的特征，再基于新的特征集进行下一轮训练。 在feature_selection库的RFE类可以用于选择特征，相关代码如下（以逻辑回归为例）：</li></ul> <div class="language-python extra-class"><pre class="language-python"><code><span class="token keyword">from</span> sklearn<span class="token punctuation">.</span>feature_selection <span class="token keyword">import</span> RFE
+<span class="token keyword">from</span> sklearn<span class="token punctuation">.</span>linear_model <span class="token keyword">import</span> LogisticRegression
+<span class="token comment">#递归特征消除法，返回特征选择后的数据</span>
+<span class="token comment">#参数estimator为基模型</span>
+<span class="token comment">#参数n_features_to_select为选择的特征个数</span>
+
+RFE<span class="token punctuation">(</span>estimator<span class="token operator">=</span>LogisticRegression<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> n_features_to_select<span class="token operator">=</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">.</span>fit_transform<span class="token punctuation">(</span>train<span class="token punctuation">,</span>target_train<span class="token punctuation">)</span>
+</code></pre></div><h4 id="embedded"><a href="#embedded" class="header-anchor">#</a> Embedded</h4> <ul><li>基于惩罚项的特征选择法 使用带惩罚项的基模型，除了筛选出特征外，同时也进行了降维。 在feature_selection库的SelectFromModel类结合逻辑回归模型可以用于选择特征，相关代码如下：</li></ul> <div class="language-python extra-class"><pre class="language-python"><code><span class="token keyword">from</span> sklearn<span class="token punctuation">.</span>feature_selection <span class="token keyword">import</span> SelectFromModel
+<span class="token keyword">from</span> sklearn<span class="token punctuation">.</span>linear_model <span class="token keyword">import</span> LogisticRegression
+<span class="token comment">#带L1惩罚项的逻辑回归作为基模型的特征选择</span>
+
+SelectFromModel<span class="token punctuation">(</span>LogisticRegression<span class="token punctuation">(</span>penalty<span class="token operator">=</span><span class="token string">&quot;l1&quot;</span><span class="token punctuation">,</span> C<span class="token operator">=</span><span class="token number">0.1</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span>fit_transform<span class="token punctuation">(</span>train<span class="token punctuation">,</span>target_train<span class="token punctuation">)</span>
+</code></pre></div><ul><li>基于树模型的特征选择 树模型中GBDT也可用来作为基模型进行特征选择。 在feature_selection库的SelectFromModel类结合GBDT模型可以用于选择特征，相关代码如下：</li></ul> <div class="language-python extra-class"><pre class="language-python"><code><span class="token keyword">from</span> sklearn<span class="token punctuation">.</span>feature_selection <span class="token keyword">import</span> SelectFromModel
+<span class="token keyword">from</span> sklearn<span class="token punctuation">.</span>ensemble <span class="token keyword">import</span> GradientBoostingClassifier
+<span class="token comment">#GBDT作为基模型的特征选择</span>
+SelectFromModel<span class="token punctuation">(</span>GradientBoostingClassifier<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span>fit_transform<span class="token punctuation">(</span>train<span class="token punctuation">,</span>target_train<span class="token punctuation">)</span>
+</code></pre></div><p>本数据集中我们删除非入模特征后，并对缺失值填充，然后用计算协方差的方式看一下特征间相关性，然后进行模型训练</p> <div class="language-python extra-class"><pre class="language-python"><code><span class="token comment"># 删除不需要的数据</span>
+<span class="token keyword">for</span> data <span class="token keyword">in</span> <span class="token punctuation">[</span>data_train<span class="token punctuation">,</span> data_test_a<span class="token punctuation">]</span><span class="token punctuation">:</span>
+    data<span class="token punctuation">.</span>drop<span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token string">'issueDate'</span><span class="token punctuation">,</span><span class="token string">'id'</span><span class="token punctuation">]</span><span class="token punctuation">,</span> axis<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">,</span>inplace<span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">)</span>
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code><span class="token string">&quot;纵向用缺失值上面的值替换缺失值&quot;</span>
+data_train <span class="token operator">=</span> data_train<span class="token punctuation">.</span>fillna<span class="token punctuation">(</span>axis<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">,</span>method<span class="token operator">=</span><span class="token string">'ffill'</span><span class="token punctuation">)</span>
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>x_train <span class="token operator">=</span> data_train<span class="token punctuation">.</span>drop<span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token string">'isDefault'</span><span class="token punctuation">,</span><span class="token string">'id'</span><span class="token punctuation">]</span><span class="token punctuation">,</span> axis<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">)</span>
+<span class="token comment">#计算协方差</span>
+data_corr <span class="token operator">=</span> x_train<span class="token punctuation">.</span>corrwith<span class="token punctuation">(</span>data_train<span class="token punctuation">.</span>isDefault<span class="token punctuation">)</span> <span class="token comment">#计算相关性</span>
+result <span class="token operator">=</span> pd<span class="token punctuation">.</span>DataFrame<span class="token punctuation">(</span>columns<span class="token operator">=</span><span class="token punctuation">[</span><span class="token string">'features'</span><span class="token punctuation">,</span> <span class="token string">'corr'</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+result<span class="token punctuation">[</span><span class="token string">'features'</span><span class="token punctuation">]</span> <span class="token operator">=</span> data_corr<span class="token punctuation">.</span>index
+result<span class="token punctuation">[</span><span class="token string">'corr'</span><span class="token punctuation">]</span> <span class="token operator">=</span> data_corr<span class="token punctuation">.</span>values
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code><span class="token comment"># 当然也可以直接看图</span>
+data_numeric <span class="token operator">=</span> data_train<span class="token punctuation">[</span>numerical_fea<span class="token punctuation">]</span>
+correlation <span class="token operator">=</span> data_numeric<span class="token punctuation">.</span>corr<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+f <span class="token punctuation">,</span> ax <span class="token operator">=</span> plt<span class="token punctuation">.</span>subplots<span class="token punctuation">(</span>figsize <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token number">7</span><span class="token punctuation">,</span> <span class="token number">7</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+plt<span class="token punctuation">.</span>title<span class="token punctuation">(</span><span class="token string">'Correlation of Numeric Features with Price'</span><span class="token punctuation">,</span>y<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">,</span>size<span class="token operator">=</span><span class="token number">16</span><span class="token punctuation">)</span>
+sns<span class="token punctuation">.</span>heatmap<span class="token punctuation">(</span>correlation<span class="token punctuation">,</span>square <span class="token operator">=</span> <span class="token boolean">True</span><span class="token punctuation">,</span>  vmax<span class="token operator">=</span><span class="token number">0.8</span><span class="token punctuation">)</span>
+</code></pre></div><div class="language- extra-class"><pre><code>&lt;matplotlib.axes._subplots.AxesSubplot at 0x12d88ad10&gt;
+</code></pre></div><p><img src="https://img-blog.csdnimg.cn/2020090509380436.png" alt="output_81_1.png"></p> <div class="language-python extra-class"><pre class="language-python"><code>features <span class="token operator">=</span> <span class="token punctuation">[</span>f <span class="token keyword">for</span> f <span class="token keyword">in</span> data_train<span class="token punctuation">.</span>columns <span class="token keyword">if</span> f <span class="token keyword">not</span> <span class="token keyword">in</span> <span class="token punctuation">[</span><span class="token string">'id'</span><span class="token punctuation">,</span><span class="token string">'issueDate'</span><span class="token punctuation">,</span><span class="token string">'isDefault'</span><span class="token punctuation">]</span> <span class="token keyword">and</span> <span class="token string">'_outliers'</span> <span class="token keyword">not</span> <span class="token keyword">in</span> f<span class="token punctuation">]</span>
+x_train <span class="token operator">=</span> data_train<span class="token punctuation">[</span>features<span class="token punctuation">]</span>
+x_test <span class="token operator">=</span> data_test_a<span class="token punctuation">[</span>features<span class="token punctuation">]</span>
+y_train <span class="token operator">=</span> data_train<span class="token punctuation">[</span><span class="token string">'isDefault'</span><span class="token punctuation">]</span>
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code><span class="token keyword">def</span> <span class="token function">cv_model</span><span class="token punctuation">(</span>clf<span class="token punctuation">,</span> train_x<span class="token punctuation">,</span> train_y<span class="token punctuation">,</span> test_x<span class="token punctuation">,</span> clf_name<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    folds <span class="token operator">=</span> <span class="token number">5</span>
+    seed <span class="token operator">=</span> <span class="token number">2020</span>
+    kf <span class="token operator">=</span> KFold<span class="token punctuation">(</span>n_splits<span class="token operator">=</span>folds<span class="token punctuation">,</span> shuffle<span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">,</span> random_state<span class="token operator">=</span>seed<span class="token punctuation">)</span>
+
+    train <span class="token operator">=</span> np<span class="token punctuation">.</span>zeros<span class="token punctuation">(</span>train_x<span class="token punctuation">.</span>shape<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+    test <span class="token operator">=</span> np<span class="token punctuation">.</span>zeros<span class="token punctuation">(</span>test_x<span class="token punctuation">.</span>shape<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+
+    cv_scores <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+
+    <span class="token keyword">for</span> i<span class="token punctuation">,</span> <span class="token punctuation">(</span>train_index<span class="token punctuation">,</span> valid_index<span class="token punctuation">)</span> <span class="token keyword">in</span> <span class="token builtin">enumerate</span><span class="token punctuation">(</span>kf<span class="token punctuation">.</span>split<span class="token punctuation">(</span>train_x<span class="token punctuation">,</span> train_y<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">'************************************ {} ************************************'</span><span class="token punctuation">.</span><span class="token builtin">format</span><span class="token punctuation">(</span><span class="token builtin">str</span><span class="token punctuation">(</span>i<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+        trn_x<span class="token punctuation">,</span> trn_y<span class="token punctuation">,</span> val_x<span class="token punctuation">,</span> val_y <span class="token operator">=</span> train_x<span class="token punctuation">.</span>iloc<span class="token punctuation">[</span>train_index<span class="token punctuation">]</span><span class="token punctuation">,</span> train_y<span class="token punctuation">[</span>train_index<span class="token punctuation">]</span><span class="token punctuation">,</span> train_x<span class="token punctuation">.</span>iloc<span class="token punctuation">[</span>valid_index<span class="token punctuation">]</span><span class="token punctuation">,</span> train_y<span class="token punctuation">[</span>valid_index<span class="token punctuation">]</span>
+
+        <span class="token keyword">if</span> clf_name <span class="token operator">==</span> <span class="token string">&quot;lgb&quot;</span><span class="token punctuation">:</span>
+            train_matrix <span class="token operator">=</span> clf<span class="token punctuation">.</span>Dataset<span class="token punctuation">(</span>trn_x<span class="token punctuation">,</span> label<span class="token operator">=</span>trn_y<span class="token punctuation">)</span>
+            valid_matrix <span class="token operator">=</span> clf<span class="token punctuation">.</span>Dataset<span class="token punctuation">(</span>val_x<span class="token punctuation">,</span> label<span class="token operator">=</span>val_y<span class="token punctuation">)</span>
+
+            params <span class="token operator">=</span> <span class="token punctuation">{</span>
+                <span class="token string">'boosting_type'</span><span class="token punctuation">:</span> <span class="token string">'gbdt'</span><span class="token punctuation">,</span>
+                <span class="token string">'objective'</span><span class="token punctuation">:</span> <span class="token string">'binary'</span><span class="token punctuation">,</span>
+                <span class="token string">'metric'</span><span class="token punctuation">:</span> <span class="token string">'auc'</span><span class="token punctuation">,</span>
+                <span class="token string">'min_child_weight'</span><span class="token punctuation">:</span> <span class="token number">5</span><span class="token punctuation">,</span>
+                <span class="token string">'num_leaves'</span><span class="token punctuation">:</span> <span class="token number">2</span> <span class="token operator">**</span> <span class="token number">5</span><span class="token punctuation">,</span>
+                <span class="token string">'lambda_l2'</span><span class="token punctuation">:</span> <span class="token number">10</span><span class="token punctuation">,</span>
+                <span class="token string">'feature_fraction'</span><span class="token punctuation">:</span> <span class="token number">0.8</span><span class="token punctuation">,</span>
+                <span class="token string">'bagging_fraction'</span><span class="token punctuation">:</span> <span class="token number">0.8</span><span class="token punctuation">,</span>
+                <span class="token string">'bagging_freq'</span><span class="token punctuation">:</span> <span class="token number">4</span><span class="token punctuation">,</span>
+                <span class="token string">'learning_rate'</span><span class="token punctuation">:</span> <span class="token number">0.1</span><span class="token punctuation">,</span>
+                <span class="token string">'seed'</span><span class="token punctuation">:</span> <span class="token number">2020</span><span class="token punctuation">,</span>
+                <span class="token string">'nthread'</span><span class="token punctuation">:</span> <span class="token number">28</span><span class="token punctuation">,</span>
+                <span class="token string">'n_jobs'</span><span class="token punctuation">:</span><span class="token number">24</span><span class="token punctuation">,</span>
+                <span class="token string">'silent'</span><span class="token punctuation">:</span> <span class="token boolean">True</span><span class="token punctuation">,</span>
+                <span class="token string">'verbose'</span><span class="token punctuation">:</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">,</span>
+            <span class="token punctuation">}</span>
+
+            model <span class="token operator">=</span> clf<span class="token punctuation">.</span>train<span class="token punctuation">(</span>params<span class="token punctuation">,</span> train_matrix<span class="token punctuation">,</span> <span class="token number">50000</span><span class="token punctuation">,</span> valid_sets<span class="token operator">=</span><span class="token punctuation">[</span>train_matrix<span class="token punctuation">,</span> valid_matrix<span class="token punctuation">]</span><span class="token punctuation">,</span> verbose_eval<span class="token operator">=</span><span class="token number">200</span><span class="token punctuation">,</span>early_stopping_rounds<span class="token operator">=</span><span class="token number">200</span><span class="token punctuation">)</span>
+            val_pred <span class="token operator">=</span> model<span class="token punctuation">.</span>predict<span class="token punctuation">(</span>val_x<span class="token punctuation">,</span> num_iteration<span class="token operator">=</span>model<span class="token punctuation">.</span>best_iteration<span class="token punctuation">)</span>
+            test_pred <span class="token operator">=</span> model<span class="token punctuation">.</span>predict<span class="token punctuation">(</span>test_x<span class="token punctuation">,</span> num_iteration<span class="token operator">=</span>model<span class="token punctuation">.</span>best_iteration<span class="token punctuation">)</span>
+            
+            <span class="token comment"># print(list(sorted(zip(features, model.feature_importance(&quot;gain&quot;)), key=lambda x: x[1], reverse=True))[:20])</span>
+                
+        <span class="token keyword">if</span> clf_name <span class="token operator">==</span> <span class="token string">&quot;xgb&quot;</span><span class="token punctuation">:</span>
+            train_matrix <span class="token operator">=</span> clf<span class="token punctuation">.</span>DMatrix<span class="token punctuation">(</span>trn_x <span class="token punctuation">,</span> label<span class="token operator">=</span>trn_y<span class="token punctuation">)</span>
+            valid_matrix <span class="token operator">=</span> clf<span class="token punctuation">.</span>DMatrix<span class="token punctuation">(</span>val_x <span class="token punctuation">,</span> label<span class="token operator">=</span>val_y<span class="token punctuation">)</span>
+            
+            params <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token string">'booster'</span><span class="token punctuation">:</span> <span class="token string">'gbtree'</span><span class="token punctuation">,</span>
+                      <span class="token string">'objective'</span><span class="token punctuation">:</span> <span class="token string">'binary:logistic'</span><span class="token punctuation">,</span>
+                      <span class="token string">'eval_metric'</span><span class="token punctuation">:</span> <span class="token string">'auc'</span><span class="token punctuation">,</span>
+                      <span class="token string">'gamma'</span><span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+                      <span class="token string">'min_child_weight'</span><span class="token punctuation">:</span> <span class="token number">1.5</span><span class="token punctuation">,</span>
+                      <span class="token string">'max_depth'</span><span class="token punctuation">:</span> <span class="token number">5</span><span class="token punctuation">,</span>
+                      <span class="token string">'lambda'</span><span class="token punctuation">:</span> <span class="token number">10</span><span class="token punctuation">,</span>
+                      <span class="token string">'subsample'</span><span class="token punctuation">:</span> <span class="token number">0.7</span><span class="token punctuation">,</span>
+                      <span class="token string">'colsample_bytree'</span><span class="token punctuation">:</span> <span class="token number">0.7</span><span class="token punctuation">,</span>
+                      <span class="token string">'colsample_bylevel'</span><span class="token punctuation">:</span> <span class="token number">0.7</span><span class="token punctuation">,</span>
+                      <span class="token string">'eta'</span><span class="token punctuation">:</span> <span class="token number">0.04</span><span class="token punctuation">,</span>
+                      <span class="token string">'tree_method'</span><span class="token punctuation">:</span> <span class="token string">'exact'</span><span class="token punctuation">,</span>
+                      <span class="token string">'seed'</span><span class="token punctuation">:</span> <span class="token number">2020</span><span class="token punctuation">,</span>
+                      <span class="token string">'nthread'</span><span class="token punctuation">:</span> <span class="token number">36</span><span class="token punctuation">,</span>
+                      <span class="token string">&quot;silent&quot;</span><span class="token punctuation">:</span> <span class="token boolean">True</span><span class="token punctuation">,</span>
+                      <span class="token punctuation">}</span>
+            
+            watchlist <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">(</span>train_matrix<span class="token punctuation">,</span> <span class="token string">'train'</span><span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token punctuation">(</span>valid_matrix<span class="token punctuation">,</span> <span class="token string">'eval'</span><span class="token punctuation">)</span><span class="token punctuation">]</span>
+            
+            model <span class="token operator">=</span> clf<span class="token punctuation">.</span>train<span class="token punctuation">(</span>params<span class="token punctuation">,</span> train_matrix<span class="token punctuation">,</span> num_boost_round<span class="token operator">=</span><span class="token number">50000</span><span class="token punctuation">,</span> evals<span class="token operator">=</span>watchlist<span class="token punctuation">,</span> verbose_eval<span class="token operator">=</span><span class="token number">200</span><span class="token punctuation">,</span> early_stopping_rounds<span class="token operator">=</span><span class="token number">200</span><span class="token punctuation">)</span>
+            val_pred  <span class="token operator">=</span> model<span class="token punctuation">.</span>predict<span class="token punctuation">(</span>valid_matrix<span class="token punctuation">,</span> ntree_limit<span class="token operator">=</span>model<span class="token punctuation">.</span>best_ntree_limit<span class="token punctuation">)</span>
+            test_pred <span class="token operator">=</span> model<span class="token punctuation">.</span>predict<span class="token punctuation">(</span>test_x <span class="token punctuation">,</span> ntree_limit<span class="token operator">=</span>model<span class="token punctuation">.</span>best_ntree_limit<span class="token punctuation">)</span>
+                 
+        <span class="token keyword">if</span> clf_name <span class="token operator">==</span> <span class="token string">&quot;cat&quot;</span><span class="token punctuation">:</span>
+            params <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token string">'learning_rate'</span><span class="token punctuation">:</span> <span class="token number">0.05</span><span class="token punctuation">,</span> <span class="token string">'depth'</span><span class="token punctuation">:</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token string">'l2_leaf_reg'</span><span class="token punctuation">:</span> <span class="token number">10</span><span class="token punctuation">,</span> <span class="token string">'bootstrap_type'</span><span class="token punctuation">:</span> <span class="token string">'Bernoulli'</span><span class="token punctuation">,</span>
+                      <span class="token string">'od_type'</span><span class="token punctuation">:</span> <span class="token string">'Iter'</span><span class="token punctuation">,</span> <span class="token string">'od_wait'</span><span class="token punctuation">:</span> <span class="token number">50</span><span class="token punctuation">,</span> <span class="token string">'random_seed'</span><span class="token punctuation">:</span> <span class="token number">11</span><span class="token punctuation">,</span> <span class="token string">'allow_writing_files'</span><span class="token punctuation">:</span> <span class="token boolean">False</span><span class="token punctuation">}</span>
+            
+            model <span class="token operator">=</span> clf<span class="token punctuation">(</span>iterations<span class="token operator">=</span><span class="token number">20000</span><span class="token punctuation">,</span> <span class="token operator">**</span>params<span class="token punctuation">)</span>
+            model<span class="token punctuation">.</span>fit<span class="token punctuation">(</span>trn_x<span class="token punctuation">,</span> trn_y<span class="token punctuation">,</span> eval_set<span class="token operator">=</span><span class="token punctuation">(</span>val_x<span class="token punctuation">,</span> val_y<span class="token punctuation">)</span><span class="token punctuation">,</span>
+                      cat_features<span class="token operator">=</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span> use_best_model<span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">,</span> verbose<span class="token operator">=</span><span class="token number">500</span><span class="token punctuation">)</span>
+            
+            val_pred  <span class="token operator">=</span> model<span class="token punctuation">.</span>predict<span class="token punctuation">(</span>val_x<span class="token punctuation">)</span>
+            test_pred <span class="token operator">=</span> model<span class="token punctuation">.</span>predict<span class="token punctuation">(</span>test_x<span class="token punctuation">)</span>
+            
+        train<span class="token punctuation">[</span>valid_index<span class="token punctuation">]</span> <span class="token operator">=</span> val_pred
+        test <span class="token operator">=</span> test_pred <span class="token operator">/</span> kf<span class="token punctuation">.</span>n_splits
+        cv_scores<span class="token punctuation">.</span>append<span class="token punctuation">(</span>roc_auc_score<span class="token punctuation">(</span>val_y<span class="token punctuation">,</span> val_pred<span class="token punctuation">)</span><span class="token punctuation">)</span>
+        
+        <span class="token keyword">print</span><span class="token punctuation">(</span>cv_scores<span class="token punctuation">)</span>
+        
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">&quot;%s_scotrainre_list:&quot;</span> <span class="token operator">%</span> clf_name<span class="token punctuation">,</span> cv_scores<span class="token punctuation">)</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">&quot;%s_score_mean:&quot;</span> <span class="token operator">%</span> clf_name<span class="token punctuation">,</span> np<span class="token punctuation">.</span>mean<span class="token punctuation">(</span>cv_scores<span class="token punctuation">)</span><span class="token punctuation">)</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">&quot;%s_score_std:&quot;</span> <span class="token operator">%</span> clf_name<span class="token punctuation">,</span> np<span class="token punctuation">.</span>std<span class="token punctuation">(</span>cv_scores<span class="token punctuation">)</span><span class="token punctuation">)</span>
+    <span class="token keyword">return</span> train<span class="token punctuation">,</span> test
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code><span class="token keyword">def</span> <span class="token function">lgb_model</span><span class="token punctuation">(</span>x_train<span class="token punctuation">,</span> y_train<span class="token punctuation">,</span> x_test<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    lgb_train<span class="token punctuation">,</span> lgb_test <span class="token operator">=</span> cv_model<span class="token punctuation">(</span>lgb<span class="token punctuation">,</span> x_train<span class="token punctuation">,</span> y_train<span class="token punctuation">,</span> x_test<span class="token punctuation">,</span> <span class="token string">&quot;lgb&quot;</span><span class="token punctuation">)</span>
+    <span class="token keyword">return</span> lgb_train<span class="token punctuation">,</span> lgb_test
+
+<span class="token keyword">def</span> <span class="token function">xgb_model</span><span class="token punctuation">(</span>x_train<span class="token punctuation">,</span> y_train<span class="token punctuation">,</span> x_test<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    xgb_train<span class="token punctuation">,</span> xgb_test <span class="token operator">=</span> cv_model<span class="token punctuation">(</span>xgb<span class="token punctuation">,</span> x_train<span class="token punctuation">,</span> y_train<span class="token punctuation">,</span> x_test<span class="token punctuation">,</span> <span class="token string">&quot;xgb&quot;</span><span class="token punctuation">)</span>
+    <span class="token keyword">return</span> xgb_train<span class="token punctuation">,</span> xgb_test
+
+<span class="token keyword">def</span> <span class="token function">cat_model</span><span class="token punctuation">(</span>x_train<span class="token punctuation">,</span> y_train<span class="token punctuation">,</span> x_test<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    cat_train<span class="token punctuation">,</span> cat_test <span class="token operator">=</span> cv_model<span class="token punctuation">(</span>CatBoostRegressor<span class="token punctuation">,</span> x_train<span class="token punctuation">,</span> y_train<span class="token punctuation">,</span> x_test<span class="token punctuation">,</span> <span class="token string">&quot;cat&quot;</span><span class="token punctuation">)</span>
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>lgb_train<span class="token punctuation">,</span> lgb_test <span class="token operator">=</span> lgb_model<span class="token punctuation">(</span>x_train<span class="token punctuation">,</span> y_train<span class="token punctuation">,</span> x_test<span class="token punctuation">)</span>
+</code></pre></div><div class="language- extra-class"><pre><code>************************************ 1 ************************************
+Training until validation scores don't improve for 200 rounds
+[200]	training's auc: 0.749225	valid_1's auc: 0.729679
+[400]	training's auc: 0.765075	valid_1's auc: 0.730496
+[600]	training's auc: 0.778745	valid_1's auc: 0.730435
+Early stopping, best iteration is:
+[455]	training's auc: 0.769202	valid_1's auc: 0.730686
+[0.7306859913754798]
+************************************ 2 ************************************
+Training until validation scores don't improve for 200 rounds
+[200]	training's auc: 0.749221	valid_1's auc: 0.731315
+[400]	training's auc: 0.765117	valid_1's auc: 0.731658
+[600]	training's auc: 0.778542	valid_1's auc: 0.731333
+Early stopping, best iteration is:
+[407]	training's auc: 0.765671	valid_1's auc: 0.73173
+[0.7306859913754798, 0.7317304414673989]
+************************************ 3 ************************************
+Training until validation scores don't improve for 200 rounds
+[200]	training's auc: 0.748436	valid_1's auc: 0.732775
+[400]	training's auc: 0.764216	valid_1's auc: 0.733173
+Early stopping, best iteration is:
+[386]	training's auc: 0.763261	valid_1's auc: 0.733261
+[0.7306859913754798, 0.7317304414673989, 0.7332610441015461]
+************************************ 4 ************************************
+Training until validation scores don't improve for 200 rounds
+[200]	training's auc: 0.749631	valid_1's auc: 0.728327
+[400]	training's auc: 0.765139	valid_1's auc: 0.728845
+Early stopping, best iteration is:
+[286]	training's auc: 0.756978	valid_1's auc: 0.728976
+[0.7306859913754798, 0.7317304414673989, 0.7332610441015461, 0.7289759386807912]
+************************************ 5 ************************************
+Training until validation scores don't improve for 200 rounds
+[200]	training's auc: 0.748414	valid_1's auc: 0.732727
+[400]	training's auc: 0.763727	valid_1's auc: 0.733531
+[600]	training's auc: 0.777489	valid_1's auc: 0.733566
+Early stopping, best iteration is:
+[524]	training's auc: 0.772372	valid_1's auc: 0.733772
+[0.7306859913754798, 0.7317304414673989, 0.7332610441015461, 0.7289759386807912, 0.7337723979789789]
+lgb_scotrainre_list: [0.7306859913754798, 0.7317304414673989, 0.7332610441015461, 0.7289759386807912, 0.7337723979789789]
+lgb_score_mean: 0.7316851627208389
+lgb_score_std: 0.0017424259863954693
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>testA_result <span class="token operator">=</span> pd<span class="token punctuation">.</span>read_csv<span class="token punctuation">(</span><span class="token string">'../testA_result.csv'</span><span class="token punctuation">)</span>
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>roc_auc_score<span class="token punctuation">(</span>testA_result<span class="token punctuation">[</span><span class="token string">'isDefault'</span><span class="token punctuation">]</span><span class="token punctuation">.</span>values<span class="token punctuation">,</span> lgb_test<span class="token punctuation">)</span>
+</code></pre></div><div class="language- extra-class"><pre><code>0.7290917729487896
+</code></pre></div><h2 id="_3-4-总结"><a href="#_3-4-总结" class="header-anchor">#</a> 3.4 总结</h2> <p>特征工程是机器学习，甚至是深度学习中最为重要的一部分，在实际应用中往往也是所花费时间最多的一步。各种算法书中对特征工程部分的讲解往往少得可怜，因为特征工程和具体的数据结合的太紧密，很难系统地覆盖所有场景。本章主要是通过一些常用的方法来做介绍，例如缺失值异常值的处理方法详细对任何数据集来说都是适用的。但对于分箱等操作本章给出了具体的几种思路，需要读者自己探索。在特征工程中比赛和具体的应用还是有所不同的，在实际的金融风控评分卡制作过程中，由于强调特征的可解释性，特征分箱尤其重要。学有余力同学可以自行多尝试，希望大家在本节学习中有所收获。</p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/blog/competition/task2.html" class="prev">
+        Task2 EDA
+      </a></span> <!----></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.15c63893.js" defer></script><script src="/assets/js/2.83a52e8a.js" defer></script><script src="/assets/js/19.26404820.js" defer></script>
+  </body>
+</html>
